@@ -1,0 +1,42 @@
+{
+  "name": "hotel-api-quality-platform",
+  "version": "1.0.0",
+  "description": "End-to-end API quality engineering platform for Automation in Testing Online. Includes API E2E testing with Bruno, performance/load testing with K6, synthetic monitoring with Checkly, regional monitoring, CI/CD automation, observability dashboards, reliability checks, and scalable QA workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "prepare": "husky",
+    "lint": "eslint .",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielObirije/hotel-api-quality-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DanielObirije/hotel-api-quality-platform/issues"
+  },
+  "homepage": "https://github.com/DanielObirije/hotel-api-quality-platform#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.60.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.4",
+    "@typescript-eslint/parser": "^8.59.4",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.7.0",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
